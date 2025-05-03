@@ -1,0 +1,10 @@
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\bin\Debug\03-Lb Hrozdiev.exe.config
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\bin\Debug\03-Lb Hrozdiev.exe
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\bin\Debug\03-Lb Hrozdiev.pdb
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\03-Lb Hrozdiev.csproj.AssemblyReference.cache
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\_03_Lb_Hrozdiev.Form1.resources
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\_03_Lb_Hrozdiev.Properties.Resources.resources
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\03-Lb Hrozdiev.csproj.GenerateResource.cache
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\03-Lb Hrozdiev.csproj.CoreCompileInputs.cache
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\03-Lb Hrozdiev.exe
+D:\01-KNUTD\04-Semestr\02-OOP\03-LB Hrozdiev\03-Lb Hrozdiev\obj\Debug\03-Lb Hrozdiev.pdb
