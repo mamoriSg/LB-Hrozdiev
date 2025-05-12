@@ -152,13 +152,13 @@
             // 
             // btnShowPredefined_Click
             // 
-            this.btnShowPredefined_Click.Location = new System.Drawing.Point(531, 379);
-            this.btnShowPredefined_Click.Name = "btnShowPredefined_Click";
-            this.btnShowPredefined_Click.Size = new System.Drawing.Size(197, 39);
-            this.btnShowPredefined_Click.TabIndex = 48;
-            this.btnShowPredefined_Click.Text = "Показати готові області";
-            this.btnShowPredefined_Click.UseVisualStyleBackColor = true;
-            this.btnShowPredefined_Click.Click += new System.EventHandler(this.btnShowPredefined_Click_Click);
+            //this.btnShowPredefined_Click.Location = new System.Drawing.Point(531, 379);
+            //this.btnShowPredefined_Click.Name = "btnShowPredefined_Click";
+            //this.btnShowPredefined_Click.Size = new System.Drawing.Size(197, 39);
+            //this.btnShowPredefined_Click.TabIndex = 48;
+            //this.btnShowPredefined_Click.Text = "Показати готові області";
+            //this.btnShowPredefined_Click.UseVisualStyleBackColor = true;
+            //this.btnShowPredefined_Click.Click += new System.EventHandler(this.btnShowPredefined_Click_Click);
             // 
             // Form1
             // 
@@ -180,7 +180,7 @@
             this.Controls.Add(this.btnSave);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
+            //this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
