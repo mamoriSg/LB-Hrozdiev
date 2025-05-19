@@ -40,12 +40,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnShow = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.btnShowPredefined_Click = new System.Windows.Forms.Button();
+            this.btnAddSample = new System.Windows.Forms.Button();
+            this.btnSort = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbAdminPop
             // 
-            this.tbAdminPop.Location = new System.Drawing.Point(162, 322);
+            this.tbAdminPop.Location = new System.Drawing.Point(61, 320);
             this.tbAdminPop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbAdminPop.Name = "tbAdminPop";
             this.tbAdminPop.Size = new System.Drawing.Size(283, 22);
@@ -54,7 +55,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(162, 301);
+            this.label5.Location = new System.Drawing.Point(61, 299);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(308, 16);
             this.label5.TabIndex = 46;
@@ -62,7 +63,7 @@
             // 
             // tbAdminName
             // 
-            this.tbAdminName.Location = new System.Drawing.Point(162, 256);
+            this.tbAdminName.Location = new System.Drawing.Point(61, 254);
             this.tbAdminName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbAdminName.Name = "tbAdminName";
             this.tbAdminName.Size = new System.Drawing.Size(283, 22);
@@ -70,7 +71,7 @@
             // 
             // tbPopulation
             // 
-            this.tbPopulation.Location = new System.Drawing.Point(165, 187);
+            this.tbPopulation.Location = new System.Drawing.Point(64, 185);
             this.tbPopulation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPopulation.Name = "tbPopulation";
             this.tbPopulation.Size = new System.Drawing.Size(280, 22);
@@ -78,7 +79,7 @@
             // 
             // tbArea
             // 
-            this.tbArea.Location = new System.Drawing.Point(162, 120);
+            this.tbArea.Location = new System.Drawing.Point(61, 118);
             this.tbArea.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbArea.Name = "tbArea";
             this.tbArea.Size = new System.Drawing.Size(283, 22);
@@ -86,7 +87,7 @@
             // 
             // tbName
             // 
-            this.tbName.Location = new System.Drawing.Point(162, 52);
+            this.tbName.Location = new System.Drawing.Point(61, 50);
             this.tbName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(283, 22);
@@ -95,7 +96,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(162, 235);
+            this.label4.Location = new System.Drawing.Point(61, 233);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(384, 16);
             this.label4.TabIndex = 41;
@@ -104,7 +105,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(162, 166);
+            this.label3.Location = new System.Drawing.Point(61, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(239, 16);
             this.label3.TabIndex = 40;
@@ -113,7 +114,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(162, 100);
+            this.label2.Location = new System.Drawing.Point(61, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(213, 16);
             this.label2.TabIndex = 39;
@@ -122,7 +123,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(158, 33);
+            this.label1.Location = new System.Drawing.Point(57, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(209, 16);
             this.label1.TabIndex = 38;
@@ -130,7 +131,7 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(363, 379);
+            this.btnShow.Location = new System.Drawing.Point(213, 379);
             this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(107, 39);
@@ -141,7 +142,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(165, 379);
+            this.btnSave.Location = new System.Drawing.Point(60, 379);
             this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(103, 39);
@@ -150,22 +151,35 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // btnShowPredefined_Click
+            // btnAddSample
             // 
-            //this.btnShowPredefined_Click.Location = new System.Drawing.Point(531, 379);
-            //this.btnShowPredefined_Click.Name = "btnShowPredefined_Click";
-            //this.btnShowPredefined_Click.Size = new System.Drawing.Size(197, 39);
-            //this.btnShowPredefined_Click.TabIndex = 48;
-            //this.btnShowPredefined_Click.Text = "Показати готові області";
-            //this.btnShowPredefined_Click.UseVisualStyleBackColor = true;
-            //this.btnShowPredefined_Click.Click += new System.EventHandler(this.btnShowPredefined_Click_Click);
+            this.btnAddSample.Location = new System.Drawing.Point(363, 379);
+            this.btnAddSample.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAddSample.Name = "btnAddSample";
+            this.btnAddSample.Size = new System.Drawing.Size(183, 39);
+            this.btnAddSample.TabIndex = 48;
+            this.btnAddSample.Text = "Додати готові області";
+            this.btnAddSample.UseVisualStyleBackColor = true;
+            this.btnAddSample.Click += new System.EventHandler(this.btnAddSample_Click_1);
+            // 
+            // btnSort
+            // 
+            this.btnSort.Location = new System.Drawing.Point(575, 379);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSort.Name = "btnSort";
+            this.btnSort.Size = new System.Drawing.Size(183, 39);
+            this.btnSort.TabIndex = 49;
+            this.btnSort.Text = "Сортувати список";
+            this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnShowPredefined_Click);
+            this.Controls.Add(this.btnSort);
+            this.Controls.Add(this.btnAddSample);
             this.Controls.Add(this.tbAdminPop);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tbAdminName);
@@ -180,7 +194,6 @@
             this.Controls.Add(this.btnSave);
             this.Name = "Form1";
             this.Text = "Form1";
-            //this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,7 +213,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnShow;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnShowPredefined_Click;
+        private System.Windows.Forms.Button btnAddSample;
+        private System.Windows.Forms.Button btnSort;
     }
 }
 
